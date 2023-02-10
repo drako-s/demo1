@@ -439,7 +439,7 @@ $services = Db::queryAll('SELECT * FROM `services` WHERE `order_id` = ?', array(
             <?php endif; ?>
             <?php if(!empty($content['c_instagram'])) : ?>
             <li class="mx-2">
-              <a href="<?= $content['c_instragram'] ?>" class="block-44__link m-0">
+              <a href="<?= $content['c_instagram'] ?>" class="block-44__link m-0">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
